@@ -8,31 +8,35 @@ TL;DR: `npm install -g elm`
 
 ## Install the Elm svn package
 
-`$ elm package install elm-lang/svg`
+`$ elm package install Kwarrtz/render`
 
 ```bash
-To install elm-lang/svg I would like to add the following
+To install Kwarrtz/render I would like to add the following
 dependency to elm-package.json:
 
-    "elm-lang/svg": "1.1.1 <= v < 2.0.0"
+    "Kwarrtz/render": "1.0.1 <= v < 2.0.0"
 
-May I add that to elm-package.json for you? [Y/n]
+May I add that to elm-package.json for you? [Y/n] y
 
 Some new packages are needed. Here is the upgrade plan.
 
   Install:
-    elm-lang/core 4.0.5
+    Kwarrtz/render 1.0.1
+    elm-lang/core 4.0.4
     elm-lang/html 1.1.0
     elm-lang/svg 1.1.1
     elm-lang/virtual-dom 1.1.1
+    jergason/elm-hash 1.0.0
 
-Do you approve of this plan? [Y/n]
+Do you approve of this plan? [Y/n] y
 Starting downloads...
 
-  ● elm-lang/html 1.1.0
-  ● elm-lang/virtual-dom 1.1.1
   ● elm-lang/svg 1.1.1
-  ● elm-lang/core 4.0.5
+  ● Kwarrtz/render 1.0.1
+  ● elm-lang/html 1.1.0
+  ● elm-lang/core 4.0.4
+  ● jergason/elm-hash 1.0.0
+  ● elm-lang/virtual-dom 1.1.1
 
 Packages configured successfully!
 ```
